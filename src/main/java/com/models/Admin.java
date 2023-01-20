@@ -1,8 +1,6 @@
 package com.models;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mongodb.client.*;
-import org.bson.Document;
 
 public class Admin {
     private Object _id;
