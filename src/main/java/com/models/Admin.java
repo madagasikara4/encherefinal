@@ -40,7 +40,7 @@ public class Admin {
         this.mdp = mdp;
     }
 
-    public static Admin getAdmin()throws Exception{
+    /* public static Admin getAdmin()throws Exception{
         String uri = "mongodb://localhost:27017";
         MongoClient mongoClient = null;
         try  {
@@ -59,7 +59,7 @@ public class Admin {
             if(mongoClient!=null)
                 mongoClient.close();
         }
-    }
+    } */
 
     public static boolean login(Admin admin)throws Exception{
         //Admin ad=Admin.getAdmin();
